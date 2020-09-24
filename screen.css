@@ -18,3 +18,26 @@ h1 {
 	color: orange);
     font-size: 4em;
 }
+@media only screen and (min-width: 400px) {
+body {
+	background-color: gray;
+    }
+input {
+	width: 80%;
+    }
+input[type=submit] {
+	width: 80%;
+    }
+  }
+  
+@media only screen and (min-width: 900px) {
+body {
+     background-color: gray;
+    }
+input {
+     width: 80%;
+     } 
+input[type=submit] {
+     width: 80%;
+    }
+  }
