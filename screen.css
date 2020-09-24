@@ -11,6 +11,10 @@ input {
     font-size: 4em;
   }
 input[type = submit] {
-    width: 80%;
-    margin-left: auto;
+    color: orange);
+    font-size: 4em;
   }
+h1 {
+	color: orange);
+    font-size: 4em;
+}
