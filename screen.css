@@ -1,43 +1,18 @@
-body {
-    text-align: left;
-    background-color: blue;
+body, label, input, input[type = submit], h1 {
+    text-align: center;
+    background-color: #D3D3D3;
+	font-family: Impact, Charcoal, sans-serif;
+	line-height: 1.00;
 }
-label {
-    color: orange);
-    font-size: 4em;
-}
-input {
-	color: orange);
-    font-size: 4em;
-  }
-input[type = submit] {
-    color: orange);
-    font-size: 4em;
-  }
-h1 {
-	color: orange);
-    font-size: 4em;
-}
-@media only screen and (min-width: 400px) {
-body {
-	background-color: gray;
+
+
+@media only screen and (min-width: 750px) {
+body, input, label, input[type = submit], h1 {
+	font-size: 80px;
     }
-input {
-	width: 80%;
-    }
-input[type=submit] {
-	width: 80%;
-    }
-  }
+
   
-@media only screen and (min-width: 900px) {
-body {
-     background-color: gray;
+@media only screen and (max-width: 900px) {
+body, input, label, input[type = submit], h1 {
+	font-size: 120px;
     }
-input {
-     width: 80%;
-     } 
-input[type=submit] {
-     width: 80%;
-    }
-  }
